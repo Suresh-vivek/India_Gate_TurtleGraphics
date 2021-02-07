@@ -55,20 +55,64 @@ def trapezium(x,y,c):
     t.pensize(2)
     t.end_fill()
 
+turtle.colormode(255)
+
+#Background
+t.pencolor(133,207,232)
+lines(20,-280,0)
+t.fillcolor(133,207,232)
+t.begin_fill()
+
+t.circle(560,steps=5)
+t.end_fill()
+
+#Clouds
+lines(330,-40,0)
+t.pencolor(255,237,237)
+t.fillcolor(255,255,255)
+t.begin_fill()
+t.backward(60)
+
+t.forward(260)
+t.circle(60,180)
+t.right(75)
+t.circle(50,120)
+t.right(120)
+t.circle(80,150)
+t.right(60)
+t.circle(80,130)
+t.left(35)
+t.end_fill()
+
+
+lines(-500,90,0)
+t.pencolor(255,237,237)
+t.fillcolor(255,255,255)
+t.begin_fill()
+t.backward(60)
+
+t.forward(260)
+t.circle(60,180)
+t.right(75)
+t.circle(50,120)
+t.right(120)
+t.circle(80,150)
+t.right(60)
+t.circle(80,130)
+t.left(35)
+t.end_fill()
 #Setting Pen Size
 t.pensize(2)
 
-t.right(90)
-Air(340)
-t.right(90)
-Air(335)
 
-turtle.colormode(255)
+lines(-335,-340,0)
+
+
 t.pencolor(128,103,72)
 
 #Left_Pillar
 
-t.right(90)
+t.left(90)
 Rect(150,140,(237,176,102))
 t.right(90)
 t.forward(10)
@@ -270,7 +314,7 @@ lines(125,-120,0)
 t.right(180)
 t.pensize(3)
 t.pencolor(104,88,66)
-t.fillcolor(255,255,255)
+t.fillcolor(133,207,232)
 t.begin_fill()
 t.circle(139,180)
 t.end_fill()
