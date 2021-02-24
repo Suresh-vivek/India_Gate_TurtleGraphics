@@ -3,6 +3,8 @@ import turtle
 t=turtle.Turtle()
 t.screen.setup(1200,720)
 #Functions used
+
+#Defining function for making rectangle
 def Rect(x,y,c):
     t.fillcolor(c)
     t.begin_fill()
@@ -15,12 +17,13 @@ def Rect(x,y,c):
 
 
 
-
+#Defining function to move pen 
 def Air(x):
     t.penup()
     t.forward(x)
     t.pendown()
 
+#Defining function to draw lines at random coordinates
 def lines(x,y,l):
     t.pensize(3)
     t.penup()
@@ -40,6 +43,7 @@ def Rect1(x,y,c):
     t.left(90)
     t.end_fill()
 
+#Defining function to draw trapezium
 def trapezium(x,y,c):
     t.fillcolor(c)
     t.begin_fill()
